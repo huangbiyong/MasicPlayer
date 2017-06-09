@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1404F2001EEA331F00DED072 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1404F1FE1EEA331F00DED072 /* 1.png */; };
+		1404F2011EEA331F00DED072 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1404F1FF1EEA331F00DED072 /* 2.png */; };
 		141A99211EA991EC00F0CF92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A99201EA991EC00F0CF92 /* AppDelegate.swift */; };
 		141A99231EA991EC00F0CF92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A99221EA991EC00F0CF92 /* ViewController.swift */; };
 		141A99261EA991EC00F0CF92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141A99241EA991EC00F0CF92 /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1404F1FE1EEA331F00DED072 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		1404F1FF1EEA331F00DED072 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		141A991D1EA991EB00F0CF92 /* 音乐播放器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "音乐播放器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		141A99201EA991EC00F0CF92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		141A99221EA991EC00F0CF92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,15 @@
 			name = MasicTools;
 			sourceTree = "<group>";
 		};
+		1404F1FD1EEA331F00DED072 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				1404F1FE1EEA331F00DED072 /* 1.png */,
+				1404F1FF1EEA331F00DED072 /* 2.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		141A99141EA991EB00F0CF92 = {
 			isa = PBXGroup;
 			children = (
@@ -120,6 +133,7 @@
 		141A991F1EA991EB00F0CF92 /* 音乐播放器 */ = {
 			isa = PBXGroup;
 			children = (
+				1404F1FD1EEA331F00DED072 /* screenshots */,
 				1404F1FC1EEA2CCC00DED072 /* MasicTools */,
 				141A994E1EA9922300F0CF92 /* resource */,
 				141A99201EA991EC00F0CF92 /* AppDelegate.swift */,
@@ -273,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1404F2011EEA331F00DED072 /* 2.png in Resources */,
 				141A992B1EA991EC00F0CF92 /* LaunchScreen.storyboard in Resources */,
 				141A99281EA991EC00F0CF92 /* Assets.xcassets in Resources */,
 				141A99561EA9922300F0CF92 /* 情非得已.mp3 in Resources */,
@@ -282,6 +297,7 @@
 				141A99591EA9922300F0CF92 /* 梁静茹-偶阵雨.lrc in Resources */,
 				141A99551EA9922300F0CF92 /* 情非得已.lrc in Resources */,
 				141A99581EA9922300F0CF92 /* 林俊杰-背对背拥抱.mp3 in Resources */,
+				1404F2001EEA331F00DED072 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
