@@ -14,6 +14,14 @@
 		141A992B1EA991EC00F0CF92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141A99291EA991EC00F0CF92 /* LaunchScreen.storyboard */; };
 		141A99361EA991EC00F0CF92 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A99351EA991EC00F0CF92 /* _____Tests.swift */; };
 		141A99411EA991EC00F0CF92 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A99401EA991EC00F0CF92 /* _____UITests.swift */; };
+		141A99551EA9922300F0CF92 /* 情非得已.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 141A994F1EA9922300F0CF92 /* 情非得已.lrc */; };
+		141A99561EA9922300F0CF92 /* 情非得已.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 141A99501EA9922300F0CF92 /* 情非得已.mp3 */; };
+		141A99571EA9922300F0CF92 /* 林俊杰-背对背拥抱.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 141A99511EA9922300F0CF92 /* 林俊杰-背对背拥抱.lrc */; };
+		141A99581EA9922300F0CF92 /* 林俊杰-背对背拥抱.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 141A99521EA9922300F0CF92 /* 林俊杰-背对背拥抱.mp3 */; };
+		141A99591EA9922300F0CF92 /* 梁静茹-偶阵雨.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 141A99531EA9922300F0CF92 /* 梁静茹-偶阵雨.lrc */; };
+		141A995A1EA9922300F0CF92 /* 梁静茹-偶阵雨.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 141A99541EA9922300F0CF92 /* 梁静茹-偶阵雨.mp3 */; };
+		141A995C1EA994F500F0CF92 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A995B1EA994F500F0CF92 /* Music.swift */; };
+		141A99601EA9A4F200F0CF92 /* MusicTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141A995F1EA9A4F200F0CF92 /* MusicTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		141A993C1EA991EC00F0CF92 /* 音乐播放器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "音乐播放器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		141A99401EA991EC00F0CF92 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		141A99421EA991EC00F0CF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		141A994F1EA9922300F0CF92 /* 情非得已.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "情非得已.lrc"; sourceTree = "<group>"; };
+		141A99501EA9922300F0CF92 /* 情非得已.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "情非得已.mp3"; sourceTree = "<group>"; };
+		141A99511EA9922300F0CF92 /* 林俊杰-背对背拥抱.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "林俊杰-背对背拥抱.lrc"; sourceTree = "<group>"; };
+		141A99521EA9922300F0CF92 /* 林俊杰-背对背拥抱.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林俊杰-背对背拥抱.mp3"; sourceTree = "<group>"; };
+		141A99531EA9922300F0CF92 /* 梁静茹-偶阵雨.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "梁静茹-偶阵雨.lrc"; sourceTree = "<group>"; };
+		141A99541EA9922300F0CF92 /* 梁静茹-偶阵雨.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "梁静茹-偶阵雨.mp3"; sourceTree = "<group>"; };
+		141A995B1EA994F500F0CF92 /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		141A995F1EA9A4F200F0CF92 /* MusicTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1404F1FC1EEA2CCC00DED072 /* MasicTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MasicTools;
+			sourceTree = "<group>";
+		};
 		141A99141EA991EB00F0CF92 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +120,16 @@
 		141A991F1EA991EB00F0CF92 /* 音乐播放器 */ = {
 			isa = PBXGroup;
 			children = (
+				1404F1FC1EEA2CCC00DED072 /* MasicTools */,
+				141A994E1EA9922300F0CF92 /* resource */,
 				141A99201EA991EC00F0CF92 /* AppDelegate.swift */,
 				141A99221EA991EC00F0CF92 /* ViewController.swift */,
 				141A99241EA991EC00F0CF92 /* Main.storyboard */,
 				141A99271EA991EC00F0CF92 /* Assets.xcassets */,
 				141A99291EA991EC00F0CF92 /* LaunchScreen.storyboard */,
 				141A992C1EA991EC00F0CF92 /* Info.plist */,
+				141A995B1EA994F500F0CF92 /* Music.swift */,
+				141A995F1EA9A4F200F0CF92 /* MusicTool.swift */,
 			);
 			path = "音乐播放器";
 			sourceTree = "<group>";
@@ -123,6 +150,19 @@
 				141A99421EA991EC00F0CF92 /* Info.plist */,
 			);
 			path = "音乐播放器UITests";
+			sourceTree = "<group>";
+		};
+		141A994E1EA9922300F0CF92 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				141A994F1EA9922300F0CF92 /* 情非得已.lrc */,
+				141A99501EA9922300F0CF92 /* 情非得已.mp3 */,
+				141A99511EA9922300F0CF92 /* 林俊杰-背对背拥抱.lrc */,
+				141A99521EA9922300F0CF92 /* 林俊杰-背对背拥抱.mp3 */,
+				141A99531EA9922300F0CF92 /* 梁静茹-偶阵雨.lrc */,
+				141A99541EA9922300F0CF92 /* 梁静茹-偶阵雨.mp3 */,
+			);
+			path = resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +233,7 @@
 				TargetAttributes = {
 					141A991C1EA991EB00F0CF92 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = D35W2W2S5R;
 						ProvisioningStyle = Automatic;
 					};
 					141A99301EA991EC00F0CF92 = {
@@ -234,7 +275,13 @@
 			files = (
 				141A992B1EA991EC00F0CF92 /* LaunchScreen.storyboard in Resources */,
 				141A99281EA991EC00F0CF92 /* Assets.xcassets in Resources */,
+				141A99561EA9922300F0CF92 /* 情非得已.mp3 in Resources */,
+				141A99571EA9922300F0CF92 /* 林俊杰-背对背拥抱.lrc in Resources */,
 				141A99261EA991EC00F0CF92 /* Main.storyboard in Resources */,
+				141A995A1EA9922300F0CF92 /* 梁静茹-偶阵雨.mp3 in Resources */,
+				141A99591EA9922300F0CF92 /* 梁静茹-偶阵雨.lrc in Resources */,
+				141A99551EA9922300F0CF92 /* 情非得已.lrc in Resources */,
+				141A99581EA9922300F0CF92 /* 林俊杰-背对背拥抱.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +307,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				141A99231EA991EC00F0CF92 /* ViewController.swift in Sources */,
+				141A99601EA9A4F200F0CF92 /* MusicTool.swift in Sources */,
 				141A99211EA991EC00F0CF92 /* AppDelegate.swift in Sources */,
+				141A995C1EA994F500F0CF92 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +463,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D35W2W2S5R;
 				INFOPLIST_FILE = "音乐播放器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "huangbiyong.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -426,10 +478,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = D35W2W2S5R;
 				INFOPLIST_FILE = "音乐播放器/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "huangbiyong.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -507,6 +562,7 @@
 				141A99471EA991EC00F0CF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		141A99481EA991EC00F0CF92 /* Build configuration list for PBXNativeTarget "音乐播放器Tests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +571,7 @@
 				141A994A1EA991EC00F0CF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		141A994B1EA991EC00F0CF92 /* Build configuration list for PBXNativeTarget "音乐播放器UITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +580,7 @@
 				141A994D1EA991EC00F0CF92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
